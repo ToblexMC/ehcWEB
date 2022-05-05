@@ -1,5 +1,37 @@
+@font-face {
+    font-family: kidsco;
+    src: url(/fonts/Kidsco.ttf)
+}
 body {
+    margin: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 50px 200px 50px 200px;
+    font-family: kidsco;
+}
+
+.nav {
+    padding-top: 10px;
+    grid-row: 1/2;
+    grid-column: 1/5;
+    background-color: rgb(0, 91, 187);
+    text-align: center;
+
+
+}
+.nav a {
+    color: rgb(255, 213, 0);
+    margin-top: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    word-spacing: 50px;
+
+}
+
+.navlogo {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 30px;
 }
